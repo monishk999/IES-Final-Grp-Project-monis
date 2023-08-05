@@ -1,0 +1,32 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: white;
+}
+
+
+nav {
+    background-color:darkgray;
+}
+
+.imgSize {
+    width :100px;
+    height:40px;
+    margin-inline:10px 20px;
+    box-shadow:inset;
+    border-radius: 5px
+}
